@@ -1,0 +1,34 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+
+# ===== Virtual Environment =====
+venv/
+env/
+
+# ===== PyTorch / Model Weights（很重要）=====
+*.pt
+*.pth
+
+# ===== YOLO runs outputs =====
+runs/
+datasets/
+*.png
+*.jpg
+*.jpeg
+
+# ===== Kaggle / system =====
+/kaggle/working/
+/kaggle/input/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== logs =====
+*.log
